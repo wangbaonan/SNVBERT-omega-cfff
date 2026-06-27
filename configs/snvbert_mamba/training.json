@@ -1,0 +1,22 @@
+{
+  "schema": "snvbert_phase_lattice_training_config_v1",
+  "global_batch": 128,
+  "updates": 81303,
+  "seed": 42,
+  "mask_rate": 0.4,
+  "optimizer": "AdamW",
+  "betas": [0.9, 0.95],
+  "epsilon": 1e-8,
+  "peak_learning_rate": 6e-5,
+  "warmup_updates": 4096,
+  "minimum_learning_rate_ratio": 0.1,
+  "weight_decay": 0.01,
+  "gradient_clip": 1.0,
+  "precision": "bfloat16",
+  "loss_weights": {
+    "haploid": 1.0,
+    "diploid": 0.5,
+    "prior_window": 0.02,
+    "prior_token": 0.02
+  }
+}

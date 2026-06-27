@@ -1,0 +1,152 @@
+{
+  "architecture": [
+    "S",
+    "S",
+    "A",
+    "S",
+    "S",
+    "A",
+    "S",
+    "S",
+    "A",
+    "S",
+    "S",
+    "A"
+  ],
+  "bundled_benchmark_implementation_count": 0,
+  "contains_checkpoint": false,
+  "contains_data": false,
+  "default_variant": "H0",
+  "external_benchmark_port": "ExternalBenchmarkPort",
+  "files": [
+    {
+      "path": "configs/snvbert_mamba/architecture.json",
+      "sha256": "5d634b5ef07f2c64b1562f89efbd28c8c4542d1adb796313a605991870caeb90",
+      "size_bytes": 767
+    },
+    {
+      "path": "configs/snvbert_mamba/training.json",
+      "sha256": "45c20dd78828b15baa1445bb49ebd387041c877eb6856ebc55ae6e40973a1fe6",
+      "size_bytes": 487
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "674d83a21d7c829d5193f01f71910031ef7f86eb9a9988f287b225b3e5537dd0",
+      "size_bytes": 1090
+    },
+    {
+      "path": "scripts/snvbert_mamba/run.sh",
+      "sha256": "625f9c57ac98726955e1ba528055f262f0991b44de31a631bddaa451f7fad028",
+      "size_bytes": 2433
+    },
+    {
+      "path": "SNVBERT_PHASE_LATTICE_REQUIREMENTS.txt",
+      "sha256": "e264c486a66cc6a02fc2954978427e530556c77f65509c77d786d009d1e89952",
+      "size_bytes": 122
+    },
+    {
+      "path": "SNVBERT_PHASE_LATTICE_STANDALONE.md",
+      "sha256": "821819f6f8d1023732961fc77f187dab18a01f1646b4b8a8196e995730972e00",
+      "size_bytes": 2113
+    },
+    {
+      "path": "src/snvbert_mamba/__init__.py",
+      "sha256": "5af89c78abe036170a19309c1136b5478f9c2889a0064dac20ee67740e3e109f",
+      "size_bytes": 1203
+    },
+    {
+      "path": "src/snvbert_mamba/backbone.py",
+      "sha256": "2812a0222e1b747a3a8397eb910c369fe94b1b5b6516e82ca372cec619d7370d",
+      "size_bytes": 2859
+    },
+    {
+      "path": "src/snvbert_mamba/backend.py",
+      "sha256": "5cd3ba490c5cf5cfe8696768271104fbb7430ed20b5ceace39107b5a1c4d70fd",
+      "size_bytes": 2230
+    },
+    {
+      "path": "src/snvbert_mamba/benchmark_port.py",
+      "sha256": "0710d8bfee9d796e21c633548c9cfe4a57c927bdc3c9c465e9fd225fca9bbde4",
+      "size_bytes": 1513
+    },
+    {
+      "path": "src/snvbert_mamba/checkpoint.py",
+      "sha256": "dcfab48e13919e10de534ad301f6678435ad4ca8e1030ffef6678bfeb2f7570c",
+      "size_bytes": 2166
+    },
+    {
+      "path": "src/snvbert_mamba/config.py",
+      "sha256": "1cecff1126948ce770b1ea3253498e6d0deb9f94b9af497caf2b8f68fe95cb09",
+      "size_bytes": 3218
+    },
+    {
+      "path": "src/snvbert_mamba/data.py",
+      "sha256": "8df4bf0f9b9b43452ae1306e5de212da72fc00ff3078f3c3e66218ec3fe995f5",
+      "size_bytes": 8636
+    },
+    {
+      "path": "src/snvbert_mamba/decoder.py",
+      "sha256": "680ab8e82fb30021a751db6cc39813340b6f66e4a9aa22fd9cc22cd2b710d00a",
+      "size_bytes": 3890
+    },
+    {
+      "path": "src/snvbert_mamba/diffusion.py",
+      "sha256": "8b4080a2640d87bc1d42727eddf37d6560d2f9b338aa367a17b9611915a41e46",
+      "size_bytes": 3488
+    },
+    {
+      "path": "src/snvbert_mamba/geometry.py",
+      "sha256": "188891a04113e8a2bb228c6c2d8175d67ca5ac8a2e0ede1c786fa4a9333d2962",
+      "size_bytes": 1738
+    },
+    {
+      "path": "src/snvbert_mamba/layers.py",
+      "sha256": "a78de7885439db710fb431fe3120a0c8eef017c571917396f9425aa6563cf620",
+      "size_bytes": 13480
+    },
+    {
+      "path": "src/snvbert_mamba/loss.py",
+      "sha256": "ef83a7928cd3aeb4c7db87f690596122516bbdf6457dcc3cb231c2968ffd659a",
+      "size_bytes": 5563
+    },
+    {
+      "path": "src/snvbert_mamba/model.py",
+      "sha256": "85fd2c10e41fb3e8d343d83e32cf484755a1153dd3e4365be9d5538fda821b52",
+      "size_bytes": 10246
+    },
+    {
+      "path": "src/snvbert_mamba/optim.py",
+      "sha256": "24fc23d1dd8dc2fccdb2f833d501681a21aff06e48f89e8148826495d12e8d8b",
+      "size_bytes": 4513
+    },
+    {
+      "path": "src/snvbert_mamba/segments.py",
+      "sha256": "bc5d8c644b7932e50748d71c7f4c092fb070e3b866feebdd9c56b832113c059d",
+      "size_bytes": 2892
+    },
+    {
+      "path": "src/snvbert_mamba/stream.py",
+      "sha256": "4a5828700df314ea1a7ab8cb753f386c039985e4107772f0769c1843a06682e7",
+      "size_bytes": 2228
+    },
+    {
+      "path": "src/snvbert_mamba/training.py",
+      "sha256": "176c5b4fc295048e46757deba3753dc6698e0ff81d669918b918b48fcda05013",
+      "size_bytes": 2661
+    },
+    {
+      "path": "src/train_snvbert_mamba.py",
+      "sha256": "11cc82143fd095e480d9449af3d4c283dbe30fad20fa7d55cd3db3ce5cd8db7d",
+      "size_bytes": 5340
+    },
+    {
+      "path": "tests/test_snvbert_mamba.py",
+      "sha256": "5d68df4ccea1b75f05312a32c6c7ab73df5162122f0ded2d7397cecb4733effd",
+      "size_bytes": 7277
+    }
+  ],
+  "name": "SNVBERT PhaseLattice",
+  "runtime_dependencies_are_external": true,
+  "schema": "snvbert_phase_lattice_standalone_source_v8",
+  "source_file_count": 25
+}
