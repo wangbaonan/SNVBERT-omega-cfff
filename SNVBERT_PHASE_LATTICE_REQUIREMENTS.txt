@@ -1,5 +1,0 @@
-numpy>=1.24
-torch>=2.4
-zarr>=2.18,<3
-
-# Install the accelerator-specific mamba-ssm build supplied by the target platform.
